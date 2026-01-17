@@ -1,0 +1,43 @@
+/* Importación de Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap');
+
+/* Estilos Generales */
+body { 
+    font-family: 'Open Sans', 'Gill Sans', sans-serif; 
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/* --- Estilos compartidos y específicos --- */
+
+/* Gradiente para Hero en Nosotros */
+.bg-gradient-brand {
+    background: linear-gradient(135deg, #19429f 0%, #0d2250 100%);
+}
+
+/* Bordes de fotos de equipo */
+.team-border {
+    border: 4px solid #50b0f3;
+}
+
+/* Overlay de la imagen principal en Inicio */
+.hero-overlay {
+    background: linear-gradient(rgba(17, 24, 39, 0.8), rgba(25, 66, 159, 0.8));
+}
+
+/* Fondos decorativos con SVG (Venezuela y Lara) */
+.venezuela-bg {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 550 450' fill='%2350b0f3' fill-opacity='0.1'%3E%3Cpath d='M397 76c-4 0-9 4-13 6-5 2-8 5-13 5-5 1-11-2-16-1-3 0-5 3-7 5-1 4 2 8 4 11 3 3 7 4 9 7 3 2 4 6 5 10 0 5-1 9-2 14-2 7-6 13-6 21 0 5 2 10 4 14 3 6 7 11 11 17 3 4 5 10 8 15 2 4 4 9 8 13 4 3 8 5 11 9 4 5 7 11 11 17 3 5 4 11 6 17 2 7 2 15 2 23l-3 18c-1 3-2 6-2 9 0 2 1 4 3 6l13 14c4 4 10 7 15 9 7 2 15 3 23 4l12 1c4 0 9-1 13-1 3 0 6 1 8 3 2 2 2 5 3 8 0 5-1 10-3 15-2 6-4 12-7 17-2 4-5 8-6 13-1 4 0 8 2 11 2 4 4 8 5 12 1 5 0 10-2 15-2 5-6 11-10 16l-10 11c-2 2-3 5-4 8l-2 10c0 4 2 7 4 11 3 5 8 9 12 14 3 4 5 9 6 14 1 5 0 10-1 15-2 9-5 18-9 26-2 4-4 8-6 12-2 3-3 7-4 11l-2 18c0 4-1 8-2 12-1 3-2 6-4 9-3 4-7 8-11 11-5 4-11 7-17 10-5 2-10 4-15 5-5 1-10 0-14-1-4-1-8-3-12-5-3-2-6-5-9-7-4-3-8-5-12-8-4-3-10-5-15-5-5 0-10 1-14 3-4 2-8 4-13 6-5 2-11 4-16 4-6 0-12-3-18-5-7-3-14-6-21-9-8-3-15-5-23-6-9-1-18-2-27-3l-26-1c-7 0-13 1-19 2-4 1-8 2-12 2-3 0-6-1-9-2-4-2-7-5-11-7-3-2-7-4-10-6-4-2-9-3-13-4-5-1-11-1-16-1l-18 2c-5 1-11 2-16 3-4 1-9 1-13 1-5 0-9-1-14-3-5-2-10-4-15-6l-15-7c-5-3-10-6-15-8-6-2-12-4-19-6l-13-3c-4-1-8-2-11-5-3-3-4-7-5-11 0-5 1-10 3-15-2-6 5-12 7-18 1-3 2-6 2-9 0-3-1-6-3-9l-9-10c-3-4-7-8-11-11-4-3-10-6-15-8-6-2-11-4-16-7-4-3-8-6-11-10-2-3-4-7-5-11 0-5 1-10 2-15 1-6 2-12 2-19 0-5-1-11-2-16-1-5-3-9-4-14 0-5 1-10 3-15-2-6 6-12 9-17 2-3 4-6 5-9 1-4 0-8-1-12 0-4-1-8-1-12 1-5 4-10 7-14 3-4 6-9 10-14 4-5 8-11 13-16 3-4 7-9 11-14 3-4 6-9 9-14 3-5 5-11 8-16 3-6 5-12 8-18 4-8 8-17 12-25 3-6 7-12 11-18 4-6 9-11 14-17 4-5 9-10 14-15 5-5 10-10 15-15 4-4 8-8 12-11l15-13c5-4 10-8 15-12 6-4 12-7 19-10 8-3 16-5 24-7 10-2 21-3 32-4h32c9 0 18 1 27 2 7 1 14 2 21 2 6 0 11-1 17-2 5-1 10-3 15-5 5-3 9-6 13-9l11-9c3-2 6-4 10-6z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.lara-bg {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300' fill='%2350b0f3' fill-opacity='0.15'%3E%3Cpath d='M80 50 L120 40 L180 35 L240 45 L300 60 L320 100 L310 150 L280 200 L220 240 L150 250 L100 230 L60 180 L50 120 L80 50'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}

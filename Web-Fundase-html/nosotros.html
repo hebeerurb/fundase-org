@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quiénes Somos? - FUNDASE</title>
+    
+    <!-- Scripts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="styles.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            primary: '#19429f',
+                            dark: '#0d2250',
+                            accent: '#50b0f3',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Hero Section -->
+    <header class="relative bg-gradient-brand py-24 text-white overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <svg viewBox="0 0 100 100" preserveAspectRatio="none" class="h-full w-full">
+                <path d="M0 0 L100 100 M100 0 L0 100" stroke="white" stroke-width="0.5"/>
+            </svg>
+        </div>
+        <div class="container mx-auto px-4 relative z-10 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6 text-white">Nuestra Historia</h1>
+            <p class="max-w-3xl mx-auto text-lg md:text-xl leading-relaxed text-blue-100">
+                Somos una organización no gubernamental, sin fines de lucro, fundada el <strong>09 de abril del 2018</strong>. Trabajamos por la atención integral de comunidades vulnerables para sembrar una mejor calidad de vida.
+            </p>
+        </div>
+    </header>
+
+    <!-- Misión y Visión Detallada -->
+    <section class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-16 items-start">
+                <div>
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="bg-brand-primary p-3 rounded-lg text-white">
+                            <i data-lucide="target" class="w-8 h-8"></i>
+                        </div>
+                        <h2 class="text-3xl font-bold text-brand-dark">Misión</h2>
+                    </div>
+                    <p class="text-gray-600 mb-8 text-lg">
+                        Proporcionar atención integral a comunidades y poblaciones vulnerables, abordando sus necesidades fundamentales:
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex gap-4 p-4 bg-gray-50 rounded-lg border-l-4 border-brand-accent">
+                            <i data-lucide="heart-pulse" class="text-brand-primary shrink-0"></i>
+                            <div>
+                                <h4 class="font-bold">Salud e Higiene</h4>
+                                <p class="text-sm text-gray-600">Acceso a servicios básicos y promoción de prácticas adecuadas.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 p-4 bg-gray-50 rounded-lg border-l-4 border-brand-accent">
+                            <i data-lucide="book-open" class="text-brand-primary shrink-0"></i>
+                            <div>
+                                <h4 class="font-bold">Educación</h4>
+                                <p class="text-sm text-gray-600">Desarrollo personal y comunitario a través del aprendizaje.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 p-4 bg-gray-50 rounded-lg border-l-4 border-brand-accent">
+                            <i data-lucide="shield-check" class="text-brand-primary shrink-0"></i>
+                            <div>
+                                <h4 class="font-bold">Protección</h4>
+                                <p class="text-sm text-gray-600">Defensa de derechos y erradicación de la violencia.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-brand-dark text-white p-10 rounded-3xl shadow-2xl relative">
+                    <i data-lucide="quote" class="absolute top-6 right-8 w-12 h-12 opacity-20"></i>
+                    <h2 class="text-3xl font-bold mb-6 text-white">Visión</h2>
+                    <p class="leading-relaxed mb-6 italic opacity-90">
+                        "Nos reflejamos con un profundo compromiso con el bienestar de las comunidades más vulnerables. Buscamos fomentar una transformación personal y comunitaria a través del amor al servicio."
+                    </p>
+                    <p class="leading-relaxed text-sm text-blue-100">
+                        Esto se traduce en un enfoque equitativo y autónomo que permite el empoderamiento y desarrollo integral para fortalecer el tejido social.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Valores -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-16 text-brand-dark uppercase tracking-widest">Nuestros Valores</h2>
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center group">
+                    <div class="w-20 h-20 bg-white shadow-md rounded-2xl flex items-center justify-center mx-auto mb-6 text-brand-accent group-hover:bg-brand-accent group-hover:text-white transition-all">
+                        <i data-lucide="users" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-3 text-brand-dark">Solidaridad</h3>
+                    <p class="text-sm text-gray-500">Ser sensibles a la realidad que nos rodea.</p>
+                </div>
+                <div class="text-center group">
+                    <div class="w-20 h-20 bg-white shadow-md rounded-2xl flex items-center justify-center mx-auto mb-6 text-brand-accent group-hover:bg-brand-accent group-hover:text-white transition-all">
+                        <i data-lucide="zap" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-3 text-brand-dark">Acción</h3>
+                    <p class="text-sm text-gray-500">Práctica concreta centrada en el bien común.</p>
+                </div>
+                <div class="text-center group">
+                    <div class="w-20 h-20 bg-white shadow-md rounded-2xl flex items-center justify-center mx-auto mb-6 text-brand-accent group-hover:bg-brand-accent group-hover:text-white transition-all">
+                        <i data-lucide="layers" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-3 text-brand-dark">Organización</h3>
+                    <p class="text-sm text-gray-500">Trabajo en equipo indisoluble.</p>
+                </div>
+                <div class="text-center group">
+                    <div class="w-20 h-20 bg-white shadow-md rounded-2xl flex items-center justify-center mx-auto mb-6 text-brand-accent group-hover:bg-brand-accent group-hover:text-white transition-all">
+                        <i data-lucide="heart" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-3 text-brand-dark">Gratitud</h3>
+                    <p class="text-sm text-gray-500">La base auténtica de nuestra acción.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipo FUNDASE -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4 text-brand-dark uppercase tracking-tight">Nuestro Equipo</h2>
+            <p class="text-gray-500 mb-16 max-w-lg mx-auto">Las manos y corazones que hacen posible FUNDASE día tras día.</p>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 justify-items-center">
+                <div class="flex flex-col items-center">
+                    <div class="w-40 h-40 rounded-full team-border overflow-hidden bg-gray-50 mb-6 flex items-center justify-center shadow-md transition-all hover:shadow-xl hover:-translate-y-1">
+                        <img src="https://via.placeholder.com/160?text=Miembro" alt="Miembro" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="font-bold text-brand-dark text-lg mb-1">Nombre Apellido</h4>
+                    <p class="text-xs text-brand-accent uppercase font-bold tracking-widest italic">Cargo / Función</p>
+                </div>
+                <!-- Repetir según sea necesario -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-dark text-white/50 py-10">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-[11px] uppercase tracking-widest">© 2024 FUNDASE - Fundación Sembrando Esperanza. Barquisimeto, Lara.</p>
+        </div>
+    </footer>
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>
